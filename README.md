@@ -20,12 +20,22 @@ privacy work and makes it look and behave like part of the OS.
 | | |
 |---|---|
 | **Rebranded at the source** | Not a theme on top of someone else's app. A build overlay rewrites names, the internal URL scheme (`aether://`), about/version pages, logos and colours inside the Brave source tree, then the whole browser is compiled. |
-| **Its own new tab** | Clock and greeting set in a serif, one search field, shortcut tiles. **Customize** mode lets you drag blocks around, add or remove sites, change each block's colour and blur, and set an image, video or YouTube background. |
+| **Its own new tab** | Clock and greeting set in a serif, one search field, shortcut tiles. Press **Ctrl+Shift+E** for **Customize mode**: drag the clock, search and shortcuts anywhere (with a snap-to-centre guide), hide or reset blocks, add / remove / reorder / edit sites, tint and blur the shortcuts block, and set an image, video or YouTube background. |
+| **Command palette** | **Ctrl+Space** opens a palette to run any browser command by name (or type `:>` in the address bar). |
+| **Real dark mode** | A proper browser theme switch, not just a dark page: the whole window uses Aether's dark palette, with the active tab picked out in gold. |
 | **Shortcut icons that match** | Known sites get a gold line-art icon; anything else gets a gold monogram. No mismatched colourful favicons. |
 | **Quiet by default** | Telemetry off. Rewards, crypto wallet, VPN, Tor and AI chat switched off by policy. Search goes through DuckDuckGo. |
 | **One design system** | Same warm palette, gold accent and type as the rest of Aether. A hard rule: no pill-shaped buttons anywhere, only rounded rectangles. |
 
 <p align="center"><img src="docs/new-tab-customize.png" width="49%" alt="Customize mode"> <img src="docs/new-tab-dark.png" width="49%" alt="Flow, dark"></p>
+
+## Keyboard
+
+| Keys | Does |
+|---|---|
+| `Ctrl` `Shift` `E` | Customize the new tab |
+| `Ctrl` `Space` | Command palette |
+| `:>` in the address bar | Command palette, inline |
 
 ## How it's built
 
@@ -43,7 +53,8 @@ privacy work and makes it look and behave like part of the OS.
 ## Still to do
 
 Being honest about what isn't finished: the on-disk binary still carries Brave's name, one window title still
-leaks, and Flow doesn't have its own first-run welcome yet.
+leaks, and Flow doesn't have its own first-run welcome yet. Designed but not built yet: an optional shortcut bar
+under the address bar (off by default, with a Settings toggle), and a menu entry for Customize next to the shortcut.
 
 ## Source code
 
