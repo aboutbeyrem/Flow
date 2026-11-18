@@ -64,5 +64,5 @@ on request.
 
 ## Built by
 
-[Beyrem](https://github.com/aboutbeyrem), as part of Aether OS (2026). Much of the code was written with AI coding
-agents (Claude Code) under my direction: I set the design, made the calls, and field-tested the builds.
+[Beyrem](https://github.com/aboutbeyrem), as part of Aether OS (2026). The vision, the design, every decision and
+the field testing are mine; I built it with AI coding agents (Claude Code) as my tools for writing the code.
