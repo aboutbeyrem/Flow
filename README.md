@@ -1,7 +1,7 @@
 <h1 align="center">Flow</h1>
 
 <p align="center"><b>The browser of <a href="https://github.com/aboutbeyrem/aether-os">Aether OS</a>.</b><br>
-Compiled from source on top of Brave (Chromium 149), rebranded down to the engine, with a calm warm-paper new tab.</p>
+Compiled from source on top of Brave (Chromium 149), rebranded at the source, with a calm warm-paper new tab.</p>
 
 <p align="center">Ships inside Aether OS · <a href="https://www.runaether.tn">runaether.tn</a></p>
 
@@ -19,9 +19,9 @@ privacy work and makes it look and behave like part of the OS.
 
 | | |
 |---|---|
-| **Rebranded at the source** | Not a theme on top of someone else's app. A build overlay rewrites names, the internal URL scheme (`aether://`), about/version pages, logos and colours inside the Brave source tree, then the whole browser is compiled. |
+| **Rebranded at the source** | More than a theme: in the build that ships with Aether, a build overlay rewrites names, the internal URL scheme (`aether://`), about/version pages, logos and colours inside the Brave source tree, then the whole browser is compiled. |
 | **Its own new tab** | Clock and greeting set in a serif, one search field, shortcut tiles. Press **Ctrl+Shift+E** for **Customize mode**: drag the clock, search and shortcuts anywhere (with a snap-to-centre guide), hide or reset blocks, add / remove / reorder / edit sites, tint and blur the shortcuts block, and set an image, video or YouTube background. |
-| **Command palette** | **Ctrl+Space** opens a palette to run any browser command by name (or type `:>` in the address bar). |
+| **Command palette** | Brave's command palette ("Commander") is kept on: **Ctrl+Space** runs any browser command by name (or type `:>` in the address bar). |
 | **Real dark mode** | A proper browser theme switch, not just a dark page: the whole window uses Aether's dark palette, with the active tab picked out in gold. |
 | **Shortcut icons that match** | Known sites get a gold line-art icon; anything else gets a gold monogram. No mismatched colourful favicons. |
 | **Quiet by default** | Telemetry off. Rewards, crypto wallet, VPN, Tor and AI chat switched off by policy. Search goes through DuckDuckGo. |
@@ -64,4 +64,5 @@ on request.
 
 ## Built by
 
-[Beyrem](https://github.com/aboutbeyrem), as part of Aether OS (2026). Built with AI pair-programming (Claude Code).
+[Beyrem](https://github.com/aboutbeyrem), as part of Aether OS (2026). Much of the code was written with AI coding
+agents (Claude Code) under my direction: I set the design, made the calls, and field-tested the builds.
